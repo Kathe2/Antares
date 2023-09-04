@@ -23,18 +23,18 @@
         <ul class="nav-links">
 
             <li class="item-menu">
-                <a href="#">
-                    <i class="bi bi-houses"></i>
-                    <span class="text-list">
+                <a href="#" class="home">
+                    <i class="bi bi-houses home"></i>
+                    <span class="text-list home">
                         Home
                     </span>
                 </a>
             </li>
 
             <li class="item-menu">
-                <a href="#">              
-                    <i class="bi bi-clipboard2-data"></i>                  
-                    <span class="text-list">
+                <a href="#" class="dashboard">              
+                    <i class="bi bi-clipboard2-data dashboard"></i>                  
+                    <span class="text-list dashboard">
                         Dashboard
                     </span>
                 </a>
@@ -42,9 +42,9 @@
 
             <li class="item-menu">
                 <div class="icon-li">
-                    <a href="#" class="icones">   
-                        <i class="bi bi-person-vcard"></i>                       
-                        <span class="text-list">
+                    <a href="#" class="icones cliente">   
+                        <i class="bi bi-person-vcard cliente" ></i>                       
+                        <span class="text-list cliente">
                             Cliente
                         </span>                       
                         <i class="bi bi-caret-down"></i>
@@ -52,18 +52,18 @@
                     </a>
                     <ul class="sub-menu">
                         <li>
-                         <a href="#">Consultar Clientes</a>
+                         <a href="#" class="cliente">Consultar Clientes</a>
                         </li>
-                        <li><a href="#">Cadastrar Clientes</a></li>
+                        <li><a href="#" class="cliente">Cadastrar Clientes</a></li>
                     </ul>
                 </div>
             </li>
 
             <li class="item-menu">
                 <div class="icon-li">
-                    <a href="#" class="icones">                      
-                        <i class="bi bi-inboxes"></i>                      
-                        <span class="text-list">
+                    <a href="#" class="icones estoque">                      
+                        <i class="bi bi-inboxes estoque"></i>                      
+                        <span class="text-list estoque">
                             Estoque
                         </span>
                         
@@ -72,18 +72,18 @@
                     </a>
                     <ul class="sub-menu">
                         <li>
-                        <a href="#">Consultar Produto</a>
+                        <a href="#" class="estoque">Consultar Produto</a>
                         </li>
-                        <li><a href="#">Cadastrar Produto</a></li>
+                        <li><a href="#" class="estoque">Cadastrar Produto</a></li>
                     </ul>
 
             </li>
 
             <li class="item-menu">
                 <div class="icon-li">
-                    <a href="#" class="icones">                      
-                        <i class="bi bi-bank"></i>                  
-                        <span class="text-list">
+                    <a href="#" class="icones financeiro">                      
+                        <i class="bi bi-bank financeiro"></i>                  
+                        <span class="text-list financeiro">
                             Financeiro
                         </span>                       
                         <i class="bi bi-caret-down"></i>                      
@@ -91,9 +91,9 @@
                 
                     <ul class="sub-menu">
                     <li>
-                    <a href="#">Consultar Movimento</a>
+                    <a href="#" class="financeiro">Consultar Movimento</a>
                     </li>
-                    <li><a href="#">Cadastrar Movimento</a></li>
+                    <li><a href="#" class="financeiro">Cadastrar Movimento</a></li>
                 </div>
                 </ul>
             </li>
@@ -101,6 +101,45 @@
         </ul>
     </nav>
 
+    <div id="conteudo">
+    
+    
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous">
+    </script>
+
+    <script>
+        $(".home").click(function(){
+
+            $("#conteudo").load("pages/home.html");
+
+        });
+
+         $(".dashboard").click(function(){
+
+            $("#conteudo").load("pages/dashboard.html");
+        });
+
+
+        $(".cliente").click(function(){
+
+            $("#conteudo").load("pages/clientes.html");
+        });
+
+        $(".estoque").click(function(){
+
+            $("#conteudo").load("pages/estoque.html");
+
+        });
+
+        $(".financeiro").click(function(){
+            $("#conteudo").load("pages/financeiro.html");
+        });
+
+
+    </script>
+ 
 </body>
 
 </html>

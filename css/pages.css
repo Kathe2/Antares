@@ -9,8 +9,7 @@
 
 nav{
     height: 100vh;
-    width: 260px;
-    width: 50vw;
+    width: 25vw;
     background: rgba(18, 92, 65);
     position: fixed;
     top: 0;
@@ -92,7 +91,7 @@ li .text-list{
     padding: 6px 6px 14px 80px;
     margin-top: -10px;
     background: rgb(25, 95, 69);
-   /* display: none;*/
+    display: none;
  }
 
  li .sub-menu a{
@@ -106,4 +105,13 @@ li .text-list{
 
  li .sub-menu a:hover{
     opacity: 2;
+ }
+
+ #conteudo{
+
+    background: #f3f3f3;
+    height: 100vh;
+    position: relative;
+    left: 243px;
+    height: calc(100%-240px);
  }
