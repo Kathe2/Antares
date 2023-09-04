@@ -8,13 +8,13 @@
 }
 
 nav{
-    height: 100vh;
-    width: 25vw;
     background: rgba(18, 92, 65);
+    height: 100vh;
+    width: 260px;
+    width: 50vw;
     position: fixed;
     top: 0;
     left: 0;
-    border: solid rgb(18, 92, 65);
 }
 
 .expandir{
@@ -108,10 +108,9 @@ li .text-list{
  }
 
  #conteudo{
-
     background: #f3f3f3;
     height: 100vh;
     position: relative;
-    left: 243px;
-    height: calc(100%-240px);
+    left: 250px;
+    width: calc(100%-250px);
  }
