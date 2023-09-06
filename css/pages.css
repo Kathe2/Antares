@@ -113,8 +113,9 @@ li .text-list{
     position: relative;
     left: 250px;
     width: calc(100%-250px);
+    
  }
- #estado{
-    margin-bottom: 3%;
+ 
+ .form-floating label{
+    left: 8px;
  }
-
