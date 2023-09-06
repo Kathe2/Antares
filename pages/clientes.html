@@ -1,10 +1,12 @@
 <div id="conteudo">
 
     <form class="container">
-        <div class="form-client">
+
+        <div class="form-header">
             <h2>Cadastre o Cliente</h2>
             <p>Prencha os Campos</p>
         </div>
+
     </form>
 
     <form class="form-body">
@@ -12,7 +14,7 @@
         <div class="row mb-3  col-12 col-sm-6">
 
             <div class="form-float">
-                <input type="text" id="cep" class="form-control" calplaceholder="Digite o seu cep" minlength="8"
+                <input type="text" id="cep" class="form-controle" placeholder="Digite o seu cep" minlength="8"
                     maxlength="8" required>
                 <label for="cep">Digite o seu Cep</label>
             </div>
@@ -23,14 +25,14 @@
 
             <div class="form-float">
 
-                <input type="text" id="rua" class="form-control" placeholder="Digite o nome de Rua"
+                <input type="text" id="rua" class="form-controle" placeholder="Digite o nome de Rua"
                     required disabled>
                 <label for="rua">Digite o nome da Rua</label>
 
             </div>
     
             <div class="form-float">
-                <input type="text" id="numero" class="form-control"
+                <input type="text" id="numero" class="form-controle"
                     placeholder="Digite o número da residencia" required disabled>
                 <label for="numero">Digite o número da Residencia</label>
 
@@ -40,8 +42,8 @@
 
         <div class="row mb-3 col-12 col-sm-6">
             <div class="form-float">
-                <input type="text" id="Complemento" class="form-control"
-                    placeholder="Digite o complemento" required disabled>
+                <input type="text" id="Complemento" class="form-controle"
+                    placeholder="Digite o complemento" required>
                 <label for="complemento">Digite o complemento</label>
 
             </div>
@@ -50,7 +52,7 @@
         <div class="row mb-3 col-12 col-sm-6">
             
             <div class="form-float">
-                <input type="text" id="bairro" class="form-control" placeholder="Digite o bairro"
+                <input type="text" id="bairro" class="form-controle" placeholder="Digite o bairro"
                     required disabled>
                 <label for="bairro">Digite o bairro</label>
 
@@ -59,7 +61,7 @@
 
         <div class="row mb-3 col-12 col-sm-6">
             <div class="form-float">
-                <input type="text" id="cidade" class="form-control" placeholder="Digite a cidade"
+                <input type="text" id="cidade" class="form-controle" placeholder="Digite a cidade"
                     required disabled>
                 <label for="cidade">Digite cidade</label>
 
@@ -102,7 +104,7 @@
         </div>
         
         <div class="form-button">
-            <button id="btn-salvar" type="submit" class="btn btn-primary">Cadastrar</button>
+            <button type="button" class="btn btn-success">Cadastrar</button>
         </div>
 
     </form>
