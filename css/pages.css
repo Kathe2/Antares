@@ -119,3 +119,16 @@ li .text-list{
  .form-floating label{
     left: 8px;
  }
+
+ #btn-salvar{
+    background: rgb(25, 95, 69);
+    border: none;
+    height: 2.4rem;
+    width: 8rem;
+    border-radius: 1.5rem;
+    color: black;
+ }
+
+ .form-floating input:focus{
+    border-color: rgb(25, 95, 69);
+ }
