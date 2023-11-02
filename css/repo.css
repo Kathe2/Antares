@@ -1,0 +1,12 @@
+@media (max-width:700px){
+
+form{
+    width: 14rem;
+    height: 40rem;
+}
+
+h1{
+    transform: translateX(1rem);
+}
+    
+}
